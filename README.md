@@ -3,6 +3,7 @@
 ## Requirements
 
 * [Git](https://git-scm.com/)
+* [Nodejs](https://nodejs.org/en/)
 * [Jupyter notebook](https://jupyter.org/)
 
 ## Setup
@@ -14,3 +15,13 @@ jupyter notebook
 
 # Or for a specific file
 jupyter notebook td1.ipynb 
+```
+
+## Generate images
+
+Create a dot file.  
+Execute this command:
+
+```bash
+npx diagram dot input.dot output.svg
+```
