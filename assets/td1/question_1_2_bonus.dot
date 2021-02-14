@@ -1,0 +1,40 @@
+digraph G {
+    edge[dir=none]
+
+    O -> a
+    O -> b
+    O -> c
+    O -> d
+    O -> e
+    a -> ab;
+    a -> ac -> acd -> acde;
+    a -> ad -> ade;
+    a -> ae;
+    b -> bc;
+    b -> bd;
+    b -> be;
+    c -> cd -> cde;
+    c -> ce;
+    d -> de;
+    e;
+    
+    a [label="A(7)"]
+    b [label="B(3)"]
+    c [label="C(7)"]
+    d [label="D(6)"]
+    e [label="E(7)"]
+    ab [label="AB(0)"]
+    ac [label="AC(4)"]
+    ad [label="AD(5)"]
+    ae [label="AE(6)"]
+    bc [label="BC(3)"]
+    bd [label="BD(1)"]
+    be [label="BE(1)"]
+    cd [label="CD(4)"]
+    ce [label="CE(4)"]
+    de [label="DE(4)"]
+    acd [label="ACD(3)"]
+    ade [label="ADE(4)"]
+    cde [label="CDE(2)"]
+    acde [label="ACDE(2)"]
+}
